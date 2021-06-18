@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generator planszy</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="main.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <div id="bloczki">
+            <h3>Bloczki</h3>
+        </div>
+        <div id="plansza">
+            <h3>Plansza</h3>
+        </div>
+    </div>
+    <div id="zaznacz" style="background-color:#FFC300; position: absolute; width: 0px; height: 0px; opacity: 0.5;">
+    </div>
+    <img src="arkanoid.png" alt="spritesheet" style="display: none;" id="spritesheet">
+    <div id="overlay">
+        <div id="menu">
+            <div class="menuElement">
+                <div class="left">Undo</div>
+                <div class="right">Ctrl + Z</div>
+            </div>
+            <div class="menuElement">
+                <div class="left">Redo</div>
+                <div class="right">Ctrl + Y</div>
+            </div>
+            <div class="menuElement">
+                <div class="left">Delete</div>
+                <div class="right">Del</div>
+            </div>
+            <div class="menuElement">
+                <div class="left">Save to file</div>
+                <div class="right">Ctrl + S</div>
+            </div>
+            <div class="menuElement">
+                <div class="left">Load file</div>
+                <div class="right">Ctrl + L</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
