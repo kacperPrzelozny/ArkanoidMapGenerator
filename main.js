@@ -1,3 +1,3 @@
-import {Blocks} from "/modules/generator.js"
+import {Blocks} from "./modules/generator.js"
 Blocks.createBlocks()
 Blocks.createGameboard()
