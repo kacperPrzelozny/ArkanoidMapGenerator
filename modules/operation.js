@@ -82,6 +82,7 @@ export class Operations {
       const file = input.files[0];
       const fileReader = new FileReader();
       fileReader.onload = (e) => {
+        console.log(file)
           actualGameboard = JSON.parse(JSON.stringify(JSON.parse(e.currentTarget.result).actualGameboard))
           if (actualIndex == history.length - 1) {
             history.push(JSON.parse(JSON.stringify(actualGameboard)));
